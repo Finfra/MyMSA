@@ -43,19 +43,6 @@ spec:
       terminationGracePeriodSeconds: 30
 status:
   availableReplicas: 1
-  conditions:
-  - lastTransitionTime: "2023-04-20T06:44:01Z"
-    lastUpdateTime: "2023-04-20T06:44:01Z"
-    message: Deployment has minimum availability.
-    reason: MinimumReplicasAvailable
-    status: "True"
-    type: Available
-  - lastTransitionTime: "2023-04-20T06:43:52Z"
-    lastUpdateTime: "2023-04-20T06:44:01Z"
-    message: ReplicaSet "n1-f5cb88c5c" has successfully progressed.
-    reason: NewReplicaSetAvailable
-    status: "True"
-    type: Progressing
   observedGeneration: 1
   readyReplicas: 1
   replicas: 1
